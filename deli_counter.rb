@@ -14,6 +14,18 @@ def line(katz_deli)
         puts "The line is currently: #{curr_line.join(" ")}"
     end
 end
+#DJ version
+#def line(deli)
+    # if deli.empty?
+    #     puts "The line is currently empty."
+    # else
+    #     queue = "The line is currently:"
+    #     deli.each.with_index(1) do |name, i|
+    #         queue << "#{i} #{name}"
+    #     end
+    #     queue 
+    # end
+#end
 
 def take_a_number(katz_deli, name)
         katz_deli << name
